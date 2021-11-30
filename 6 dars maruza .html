@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        body {
+            height: 100vh;
+            /*  view height 100 ekrani toliq korinishi*/
+            background: rgb(8, 243, 246);
+            background: linear-gradient(16deg, #08f3f6 0%, #f100cd 95%);
+            display: flex;
+            align-items: center;
+            /*qaysi elementga berilsa shu elementni ichidagi elementni boyidan o'rtaga oladi */
+            justify-content: center;
+            /*qaysi elementga berilsa shu elementni ichidagi elementni eniga ortaga oladi */
+        }
+
+        .login_panel {
+            width: 400px;
+            height: 600px;
+            background-color: #fff;
+            border-radius: 5px; /* bu kod elemetni chetini yumolqroq  qiladi */
+        }
+        .login_title{
+            text-align: center; /*bu textlarni o'rtaga olib keladi */
+            margin-top: 40px;/* bu kod elementni yuqorisidan joy ajratadi */
+            font-family: sans-serif;  /*bu kod textni dizayinni ozgartiradi */
+            font-size: 45px; /*bu kod textni razmerini kattalashtiradi*/
+            font-weight: 500;/* bu kod textni qalinligini o'zgartiradi */
+        }
+        .login_input{
+            width: 80%;
+            height: 45px;
+            margin-left: 10%;
+            margin-top: 30px;
+            border-radius: 5px;
+            border: 1px solid grey; /*element chetiga chiziq  beradi 1px qalinligi solid chiziq turi gray chiziq rangi  */
+            text-indent: 10px;/* textni gorizantal jildiradi */
+            outline: none;/ * bu inputni tashqi chizigini yoqotadi*/
+        }
+        .Login_button{
+            width: 82%;
+            height: 45px;
+            margin-left: 10%;
+            margin-top: 30px;
+            border-radius: 5px;
+            color: blanchedalmond;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border: 1px solid grey;
+            background: rgb(8, 243, 246);
+            background: linear-gradient(16deg, #08f3f6 0%, #f100cd 95%);
+            outline: none;
+font-size: 22px;
+        }
+        .login_with{    
+            text-align:center;
+            margin-top: 40px;
+            color: grey;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 25px;    
+            background-color: #fff ;
+                    
+        }
+   .fecebook{
+       margin-left: 10%;
+       height: 30px;
+       width: 100px;
+       background-color: #fff ;
+       margin-top: 30px;
+       border: 1px solid gray;
+       border-radius: 4px;
+       color: blue;
+       font-weight: 900;
+   }
+.google{
+    margin-left:60px ;
+       height: 30px;
+       width: 130px;
+       border: 1px solid gray;
+       border-radius: 4px;
+       color: red;
+       font-weight: 900; /* bu textni qalinligini ozgartiradi */
+}
+.login_end{
+    color: grey;
+    font-family: sans-serif;
+    text-align:center;
+    margin-top: 70px;
+    margin-left: ;
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: none;
+}
+  </style>
+</head>
+
+<body>
+    <div class="login_panel">
+    <h1 class="login_title">  Login Form</h1>
+    <form >
+        <input    class="login_input" type="email"  placeholder="Email Username"  >
+        <br>
+        <input class="login_input" type="password" placeholder="Password">
+        <button class="Login_button "  >LOGIN</button> 
+    </form>
+  <p class="login_with">  
+      Or login with </p>
+    <button  class="fecebook" >Fecebook</button>
+  <button class="google" >Google</button> 
+<p class=" login_end " > Not a member?  <a  class="link" href="" >sing up now</a>
+
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex_container{
+    width: 900px;
+    height: 950px;
+    background-color: yellow;
+    display: flex; /* display: flex; qaysi elementga berilsa o'sha elementni ichidagi elementlarni yonma-yon qiladi */
+
+
+    align-items: center; /* align-items: center; qaysi elementga berilsa o'sha elementni ichidagi elementlarni bo'yi  o'rtaga oladi | flex-start yuqoriga flex-end pastga */
+
+    
+    justify-content: space-between;  /*  justify-content: center; qaysi elementga berilsa o'sha elementni ichidagi elementlarni eniga o'rtaga oladi */
+
+    
+    flex-direction: row-reverse; /* flex-direction yonalishni o'zgartiradi */
+}
+
+.flex_item{
+    width: 250px;
+    height: 300px;
+    background-color: red;
+    /* margin: 10px; 
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+    <link rel="stylesheet" href="flexbox.css">
+</head>
+<body>
+    <div class="flex_container">
+        <div class="flex_item"><h1>1</h1></div>
+        <div class="flex_item"><h1>2</h1></div>
+        <div class="flex_item"><h1>3</h1></div>
+    </div>
+</body>
+</html>
+</body>
+</html>
